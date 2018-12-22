@@ -18,13 +18,7 @@ int main(void)
 		for ( c = 0; c < R; c++)
 		{
 			data[r][c] = rand() % 100;
-		}
-	}
 
-	for ( r = 0; r < R; r++) 
-	{
-		for ( c = 0; c < R; c++) 
-		{
 			printf(" %3d ", data[r][c]);
 		}
 		printf("\n");
